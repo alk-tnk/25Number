@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GridActivity" >
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/nextNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="1"
+            android:textColor="#fff"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="00.0000"
+            android:textColor="#fff"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        >
+
+        <TableRow android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/target1"
+                style="@style/numbersStyle" />
+
+            <Button
+                android:id="@+id/target2"
+                style="@style/numbersStyle" />
+
+            <Button
+                android:id="@+id/target3"
+                style="@style/numbersStyle" />
+
+            <Button
+                android:id="@+id/target4"
+                style="@style/numbersStyle" />
+
+            <Button
+                android:id="@+id/target5"
+                style="@style/numbersStyle" />
+        </TableRow>
+
+        <TableRow android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/target6"
+                style="@style/numbersStyle" />
+
+            <Button
+                android:id="@+id/target7"
+                style="@style/numbersStyle" />
+
+            <Button
+                android:id="@+id/target8"
+                style="@style/numbersStyle" />
+
+            <Button
+                android:id="@+id/target9"
+                style="@style/numbersStyle" />
+            <Button
+                android:id="@+id/target10"
+                style="@style/numbersStyle" />
+        </TableRow>
+
+        <TableRow android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/target11"
+                style="@style/numbersStyle" />
+
+            <Button
+                android:id="@+id/target12"
+                style="@style/numbersStyle" />
+
+            <Button
+                android:id="@+id/target13"
+                style="@style/numbersStyle" />
+
+            <Button
+                android:id="@+id/target14"
+                style="@style/numbersStyle" />
+
+            <Button
+                android:id="@+id/target15"
+                style="@style/numbersStyle" />
+        </TableRow>
+
+        <TableRow android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/target16"
+                style="@style/numbersStyle" />
+
+            <Button
+                android:id="@+id/target17"
+                style="@style/numbersStyle" />
+
+            <Button
+                android:id="@+id/target18"
+                style="@style/numbersStyle" />
+
+            <Button
+                android:id="@+id/target19"
+                style="@style/numbersStyle" />
+            <Button
+                android:id="@+id/target20"
+                style="@style/numbersStyle" />
+        </TableRow>
+
+        <TableRow android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/target21"
+                style="@style/numbersStyle" />
+
+            <Button
+                android:id="@+id/target22"
+                style="@style/numbersStyle" />
+
+            <Button
+                android:id="@+id/target23"
+                style="@style/numbersStyle" />
+
+            <Button
+                android:id="@+id/target24"
+                style="@style/numbersStyle" />
+            <Button
+                android:id="@+id/target25"
+                style="@style/numbersStyle" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

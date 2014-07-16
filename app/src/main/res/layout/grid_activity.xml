@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GridActivity" >
+
+    <LinearLayout
+        style="@style/LinearStyle"
+        android:layout_marginTop="60dp" >
+
+        <Button
+            android:id="@+id/target1"
+            style="@style/targetStyle" />
+
+        <Button
+            android:id="@+id/target2"
+            style="@style/targetStyle" />
+
+        <Button
+            android:id="@+id/target3"
+            style="@style/targetStyle" />
+
+        <Button
+            android:id="@+id/target4"
+            style="@style/targetStyle" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/LinearStyle" >
+
+        <Button
+            android:id="@+id/target5"
+            style="@style/targetStyle" />
+
+        <Button
+            android:id="@+id/target6"
+            style="@style/targetStyle" />
+
+        <Button
+            android:id="@+id/target7"
+            style="@style/targetStyle" />
+
+        <Button
+            android:id="@+id/target8"
+            style="@style/targetStyle" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/LinearStyle" >
+
+        <Button
+            android:id="@+id/target9"
+            style="@style/targetStyle" />
+
+        <Button
+            android:id="@+id/target10"
+            style="@style/targetStyle" />
+
+        <Button
+            android:id="@+id/target11"
+            style="@style/targetStyle" />
+
+        <Button
+            android:id="@+id/target12"
+            style="@style/targetStyle" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/LinearStyle" >
+
+        <Button
+            android:id="@+id/target13"
+            style="@style/targetStyle"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/target14"
+            style="@style/targetStyle" />
+
+        <Button
+            android:id="@+id/target15"
+            style="@style/targetStyle" />
+
+        <Button
+            android:id="@+id/target16"
+            style="@style/targetStyle" />
+    </LinearLayout>
+
+</LinearLayout>

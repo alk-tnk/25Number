@@ -1,0 +1,25 @@
+apply plugin: 'android'
+
+android {
+    compileSdkVersion 17
+    buildToolsVersion '20.0.0'
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 17
+    }
+
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:20.+'
+    compile files('libs/appc_cloud_1.1.7.jar')
+    compile files('libs/beadsdk-v1.3.4b.jar')
+    compile files('libs/jp.maru.mrd-1.2.1.jar')
+}
